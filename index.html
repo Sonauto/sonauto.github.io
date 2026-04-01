@@ -1,0 +1,22 @@
+---
+layout: default
+title: Sonauto Blog
+---
+<section class="hero">
+  <p class="eyebrow">Markdown-first publishing</p>
+  <h1>Notes from Sonauto</h1>
+  <p class="hero-copy">
+    A simple static blog for announcements, experiments, and research updates.
+  </p>
+</section>
+
+<section class="post-list">
+  {% for post in site.posts %}
+    <article class="post-card">
+      <p class="post-card-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
+      <a class="read-more" href="{{ post.url | relative_url }}">Read post</a>
+    </article>
+  {% endfor %}
+</section>

@@ -1,0 +1,8 @@
+title: Sonauto Blog
+description: Product notes, research updates, and announcements from Sonauto.
+url: https://sonauto.github.io
+timezone: America/Los_Angeles
+permalink: /:year/:month/:day/:title/
+future: true
+markdown: kramdown
+highlighter: rouge

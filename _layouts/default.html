@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
+    <meta name="theme-color" content="#0D1321">
+    <link rel="icon" type="image/png" href="{{ '/assets/brand/favicon.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
+          <img src="{{ '/assets/brand/SonautoBird.svg' | relative_url }}" alt="" width="44" height="42">
+          <span class="brand-copy">
+            <strong>{{ site.title }}</strong>
+            <span>{{ site.description }}</span>
+          </span>
+        </a>
+      </header>
+
+      <main class="page-content">
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <p>Built with Markdown and GitHub Pages.</p>
+      </footer>
+    </div>
+  </body>
+</html>
