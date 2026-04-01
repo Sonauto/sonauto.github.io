@@ -45,3 +45,5 @@ V3-Preview remains fully available, unlimited, and free. We'll publish a full te
 We'll keep building. But we'll do it carefully.
 
 — Ryan
+
+<p><img src="{{ '/madeforme.png' | relative_url }}" alt="Made For Me"></p>
