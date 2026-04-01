@@ -20,6 +20,11 @@
   --shadow: 0 24px 80px rgba(13, 19, 33, 0.14);
 }
 
+::selection {
+  background: var(--coral);
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
