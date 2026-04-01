@@ -38,7 +38,7 @@ We commissioned third-party audio analysis from IRCAM to check for unusual spect
 
 We discussed whether guardrails — session time limits, cooldown periods — would be sufficient. We decided they address symptoms, not the underlying dynamic. We're not comfortable shipping a model that creates a measurable psychological pull toward compulsive use.
 
-This was not an easy call. V3 is, by every conventional metric, our best model ever. Hayden and I started Sonauto because we love music and wanted to make it accessible to everyone. We did not start it to build the most effective engagement loop in consumer software.
+This was not an easy call. V3 is, by every conventional metric, our best model ever. Hayden and I started Sonauto because we love music and wanted to make it accessible to everyone. We did not start it to discover that the line between 'personalized' and 'addictive' is thinner than anyone in this industry wants to admit.
 
 V3-Preview remains fully available, unlimited, and free. We'll publish a full technical report once our investigation is complete.
 
