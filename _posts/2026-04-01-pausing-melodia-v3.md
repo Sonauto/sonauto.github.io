@@ -46,4 +46,4 @@ We'll keep building. But we'll do it carefully.
 
 — Ryan
 
-<p><img src="{{ '/assets/posts/madeforme.png' | relative_url }}" alt="Made For Me"></p>
+<p><img src="{{ '/assets/posts/made-for-me-panel.png' | relative_url }}" alt="Made For Me"></p>
